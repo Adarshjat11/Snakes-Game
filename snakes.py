@@ -35,6 +35,7 @@ def plot_snake(gameWindow, color, snk_list, snake_size):
     for snake_x, snake_y in snk_list:
         pygame.draw.rect(gameWindow, red, [snake_x, snake_y, snake_size, snake_size])
 
+#Welcome Screen
 def welcome():
     exit_game = False
     while not exit_game:
